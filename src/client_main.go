@@ -1,7 +1,7 @@
 package main
 
 import (
-	"client"
+	"g55.com/chat/client"
 	log "github.com/sirupsen/logrus"
 	"os"
 )

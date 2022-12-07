@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"encoding/json"
 	"errors"
+	"g55.com/chat/model"
 	log "github.com/sirupsen/logrus"
-	"model"
 	"net"
 )
 

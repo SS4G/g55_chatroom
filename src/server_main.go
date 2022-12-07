@@ -1,9 +1,9 @@
 package main
 
 import (
+	"g55.com/chat/server"
 	log "github.com/sirupsen/logrus"
 	"os"
-	"server"
 )
 
 // 会在log 库中某处默认调用

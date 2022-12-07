@@ -2,13 +2,13 @@ package client
 
 import (
 	"bufio"
-	"config"
 	"fmt"
+	"g55.com/chat/config"
+	"g55.com/chat/model"
+	"g55.com/chat/util"
 	log "github.com/sirupsen/logrus"
-	"model"
 	"os"
 	"strings"
-	"util"
 )
 
 type ChatRoomClient struct {

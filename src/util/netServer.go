@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"g55.com/chat/model"
 	log "github.com/sirupsen/logrus"
-	"model"
 	"net"
 	"sync"
 )

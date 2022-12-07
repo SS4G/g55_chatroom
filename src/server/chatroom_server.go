@@ -1,12 +1,12 @@
 package server
 
 import (
-	"config"
 	"errors"
+	"g55.com/chat/config"
+	"g55.com/chat/model"
+	"g55.com/chat/util"
 	log "github.com/sirupsen/logrus"
-	"model"
 	"time"
-	"util"
 )
 
 type ChatRoomServer struct {
